@@ -1,0 +1,61 @@
+*{
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:  rgb(25,25,25);
+}
+
+.Desktop__flex{
+    display: flex;
+    height: 100vh;
+    max-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo__container{
+    order: 1;
+    font-size: 22vw;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10vh;
+    border-bottom: 2px solid rgb(10,150,160);
+}
+
+.titulo{
+    text-decoration: none;
+    color: rgb(10,170,190);
+    transition: 0.3s;
+}
+
+.titulo:hover{
+    color: white;
+    font-size: 23vw;
+}
+
+.titulo:active{
+    color: white;
+}
+
+.hecho{
+    font-size: 2em;
+    color: rgb(255,255,255);
+    margin: auto;
+    order: 2;
+    transition: 0.2;
+    border-bottom: 2px solid rgb(10,150,160);
+}
+
+.link__name{
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.link__name:hover{
+    color:rgb(10,150,160);
+    font-size: 1.5em;
+}

@@ -1,0 +1,53 @@
+*{
+    font-family: 'Comic Neue', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.ernipelon{
+    position: absolute;
+    display: block;
+    height: 100vh;
+    width: 100%;
+    z-index: 10;
+}
+
+.volver-contenedor {
+    display: block;
+    position: absolute;
+    padding: 7px;
+    background-color: rgb(200,200,200);
+    z-index: 15;
+    text-align: right;
+    border: 5px solid black;
+}
+
+.volver{
+    box-sizing: border-box;
+    position: relative;
+    font-size: 50px;
+    z-index: 20;
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(200,20,60);
+    transition: 500ms;
+}
+
+
+.volver:hover{
+    color: black;
+}
+
+
+@media only screen and (max-width:550px){  
+    .volver{
+        box-sizing: border-box;
+        position: relative;
+        font-size: 20px;
+        z-index: 20;
+        text-decoration: none;
+        padding: 20px;
+        color: rgb(200,20,60);
+    }  
+}
+
