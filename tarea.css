@@ -29,6 +29,7 @@ background-size: cover;
 
 .item{
     display: flex;
+    flex-direction: column;
     flex-grow: 2;
     min-width: 275px;
     max-width: 330px;
@@ -42,19 +43,98 @@ background-size: cover;
     text-align: center;
 }
 
-.item span{
-    margin: 64px auto;
+.materia{
+    margin: auto;
 }
 
-.item span i{
-    color: white;
+.simbolo__mate{
+    visibility: hidden;
+    position: absolute;
+    color: rgb(170,0,0)
+}
+
+
+.simbolo__musica{
+    visibility: hidden;
+    position: absolute;
+    color: rgb(170,0,0)
+}
+
+
+.simbolo__fisica{
+    visibility: hidden;
+    position: absolute;
+    color: rgb(170,0,0)
+}
+
+
+.simbolo__biologia{
+    visibility: hidden;
+    position: absolute;
+    color: rgb(170,0,0)
+}
+
+
+.simbolo__lenguaje{
+    visibility: hidden;
+    position: absolute;
+    color: rgb(170,0,0)
+}
+
+
+.simbolo__quimica{
+    visibility: hidden;
+    position: absolute;
+    color: rgb(170,0,0)
+}
+
+
+.simbolo__artes{
+    visibility: hidden;
+    position: absolute;
+    color: rgb(170,0,0)
+}
+
+
+.simbolo__robotica{
+    visibility: hidden;
+    position: absolute;
+    color: rgb(170,0,0)
+}
+
+
+.simbolo__religion{
+    visibility: hidden;
+    position: absolute;
+    color: rgb(170,0,0)
+}
+
+
+.simbolo__sociales{
+    visibility: hidden;
+    position: absolute;
+    color: rgb(170,0,0)
+}
+
+
+.simbolo__ingles{
+    visibility: hidden;
+    position: absolute;
+    color: rgb(170,0,0)
+}
+
+
+.simbolo__filosofia{
+    visibility: hidden;
+    position: absolute;
+    color: rgb(170,0,0)
 }
 
 .flex__container a{
     text-decoration: none;
     align-self: center;
     font-size: 2.3em;
-    color: white;
+    color: rgb(100,255,155);
     transition: 0.3s;
     border-radius: 20px;
 }
@@ -66,7 +146,7 @@ background-size: cover;
     border-left: 2px solid rgb(10,80,100);
     border-bottom: 2px solid rgb(60,180,160);
     border-right: 2px solid rgb(60,180,160);
-    color: rgb(60,180,160);
+    color: rgb(0,220,200);
 }
 
 .volver__container{
@@ -78,7 +158,7 @@ background-size: cover;
 
 .volver{
     text-decoration: none;
-    color: rgb(60,180,160);
+    color: rgb(0,220,200);
     font-size: 3rem;
     transition: 0.3s;
 }
@@ -86,7 +166,7 @@ background-size: cover;
 .volver:hover{
     color: white;
     font-size: 3.3 rem;
-    text-shadow: 0 0 60px rgb(60,150,160);
+    text-shadow: 0 0 20px rgb(60,150,160);
 }
 
 .erni__container{
